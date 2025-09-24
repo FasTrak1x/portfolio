@@ -50,6 +50,7 @@ export default function About() {
             solutions. My philosophy has always been to embrace challenges and
             view them as opportunities for growth.
             <br />
+            <br />
             <br /> When it comes to Computer Science, the iceberg goes deep, and
             I’m eager to explore as much of it as I can. If I don't know enough
             about something, I dive in headfirst, learn what I need to, and get
