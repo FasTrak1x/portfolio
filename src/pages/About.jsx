@@ -49,15 +49,14 @@ export default function About() {
             tools, and apply that knowledge to create practical, meaningful
             solutions. My philosophy has always been to embrace challenges and
             view them as opportunities for growth.
+            <br />
             <br /> When it comes to Computer Science, the iceberg goes deep, and
             I’m eager to explore as much of it as I can. If I don't know enough
             about something, I dive in headfirst, learn what I need to, and get
             the job done. This mindset has helped me tackle a variety of
-            projects, from AI research to front-end development. I believe that
-            with determination and a willingness to learn, I can overcome any
-            obstacle and deliver results that make a difference. If you have a
-            project or opportunity that aligns with my skills and interests, I’d
-            love to hear from you! Feel free to explore my work and reach out.
+            projects. I believe that with determination and a willingness to
+            learn, I can overcome any obstacle and deliver results that make a
+            difference.
           </p>
         </div>
 
