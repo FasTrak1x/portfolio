@@ -59,9 +59,11 @@ export default function Contact() {
           &lt;/p&gt;
         </span>
         <p className="text-[#c6cbcf] leading-8 text-[1.02rem]">
-          I’m interested in freelance opportunities—especially ambitious or
-          large projects. If you have another request or question, feel free to
-          reach out using the form, or grab a time that works for you.
+          Whether you have a question, a project idea, or just want to say
+          hello, I’d love to hear from you! Fill out the form below to get in
+          touch, and I’ll do my best to respond as quickly as possible. If you
+          prefer, you can also book a meeting directly using the scheduling
+          widget on the right.
         </p>
       </div>
 
@@ -137,7 +139,7 @@ export default function Contact() {
               </button>
 
               <a
-                href="public\resume\Wasil_Fawad_CV.pdf"
+                href="public/resume/Wasil_Fawad_CV.pdf"
                 download
                 className="relative inline-flex items-center justify-center px-6 py-3 border-2 rounded-md 
                            border-[hsl(174,100%,42%)] text-[hsl(174,100%,42%)] font-extrabold tracking-[.12em] text-sm
