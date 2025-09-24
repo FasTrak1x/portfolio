@@ -1,6 +1,6 @@
 // src/pages/Projects.jsx
 import React from "react";
-import { Github, Code2, ExternalLink } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
