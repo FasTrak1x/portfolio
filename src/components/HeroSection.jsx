@@ -1,6 +1,7 @@
 // src/components/HeroSection.jsx
 import React, { useEffect, useRef, useState } from "react";
 import CodeDecoration from "./CodeDecoration.jsx";
+import { Link } from "react-router-dom";
 
 const ROLES = [
   "AI specialist",
@@ -62,15 +63,15 @@ export default function HeroSection() {
 
         {/* CTA */}
         <div className="mt-6">
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="relative inline-flex items-center justify-center px-6 py-3 border-2 rounded-md 
-                       border-[hsl(174,100%,42%)] text-[hsl(174,100%,42%)] font-extrabold tracking-[.12em] text-sm
-                       hover:bg-[hsl(174,100%,42%)] hover:text-[hsl(220,13%,9%)] transition"
+           border-[hsl(174,100%,42%)] text-[hsl(174,100%,42%)] font-extrabold tracking-[.12em] text-sm
+           hover:bg-[hsl(174,100%,42%)] hover:text-[hsl(220,13%,9%)] transition"
           >
             Contact me!
             <span className="absolute -right-1.5 -bottom-1.5 w-2.5 h-2.5 border-2 border-[hsl(174,100%,42%)] border-l-0 border-t-0 rounded-[2px]" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
