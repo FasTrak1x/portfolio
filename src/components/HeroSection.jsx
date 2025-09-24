@@ -3,10 +3,10 @@ import React, { useEffect, useRef, useState } from "react";
 import CodeDecoration from "./CodeDecoration.jsx";
 
 const ROLES = [
-  "web developer",
-  "software developer",
   "AI specialist",
-  "DevOps explorer",
+  "software developer",
+  "web developer",
+  "DevOps engineer",
   "programmer",
 ];
 
@@ -63,7 +63,7 @@ export default function HeroSection() {
         {/* CTA */}
         <div className="mt-6">
           <a
-            href="../pages/Contact.jsx"
+            href="src\pages\Contact.jsx"
             className="relative inline-flex items-center justify-center px-6 py-3 border-2 rounded-md 
                        border-[hsl(174,100%,42%)] text-[hsl(174,100%,42%)] font-extrabold tracking-[.12em] text-sm
                        hover:bg-[hsl(174,100%,42%)] hover:text-[hsl(220,13%,9%)] transition"
