@@ -41,12 +41,28 @@ export default function About() {
             &lt;/p&gt;
           </span>
           <p className="text-[#c6cbcf] leading-8 text-[1.02rem]">
-            I’m an AI major who loves exploring every corner of tech I can get
-            my hands on. From building clean front-end interfaces to diving into
-            cybersecurity and DevOps, I’m passionate about learning fast and
-            applying my skills to create meaningful solutions. I see myself as a
-            curious problem-solver who’s always expanding my toolkit—ready to
-            take on challenges in software engineering and beyond.
+            I’m an Artificial Intelligence major who is fascinated by exploring
+            every corner of technology I can get my hands on. While AI is my
+            core focus, I’ve developed a strong interest in front-end
+            development, software engineering, cybersecurity, and DevOps. I
+            enjoy building clean, intuitive interfaces just as much as I enjoy
+            understanding the systems that run behind the scenes. What excites
+            me most is the opportunity to learn quickly, adapt to new tools, and
+            apply that knowledge to create practical, meaningful solutions. I
+            see myself as a curious problem-solver who thrives on challenges,
+            continuously expanding my toolkit, and pushing myself to grow as a
+            versatile developer ready to take on impactful projects.
+            <br /> When it comes to Computer Science, the iceberg goes deep, and
+            I’m eager to explore as much of it as I can. My philosophy has
+            always been to embrace challenges and view them as opportunities for
+            growth. If I don't know enough about something, I dive in headfirst,
+            learn what I need to, and get the job done. This mindset has helped
+            me tackle a variety of projects, from AI research to front-end
+            development. I believe that with determination and a willingness to
+            learn, I can overcome any obstacle and deliver results that make a
+            difference. If you have a project or opportunity that aligns with my
+            skills and interests, I’d love to hear from you! Feel free to
+            explore my work and reach out.
           </p>
         </div>
 
