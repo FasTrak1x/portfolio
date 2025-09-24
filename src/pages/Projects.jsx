@@ -5,29 +5,39 @@ import { Github, Code2, ExternalLink } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Personal Portfolio",
+    title: "To-Do List App",
     description:
-      "My developer portfolio built with React + Vite + Tailwind and animated accents.",
-    tags: ["React", "Vite", "Tailwind"],
-    demo: "https://example.com/portfolio",
-    repo: "https://github.com/FasTrak1x/portfolio",
+      "A simple and intuitive to-do list application built with React.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    demo: "https://example.com/todo-app",
+    repo: "https://github.com/FasTrak1x/todo-app",
   },
   {
     id: 2,
-    title: "AI Playground",
+    title: "Fine-Tuning Qwen2-VL for LaTeX Code Generation",
     description:
-      "Small playground to test LLM prompts and integrate basic tools.",
-    tags: ["Node", "OpenAI", "Express"],
-    demo: "https://example.com/ai-playground",
+      "A project focused on fine-tuning the Qwen2-VL model to generate LaTeX code from images of Mathematical Equations using LoRA and 4-bit Quantization.",
+    tags: ["Python", "NLP", "CV"],
+    demo: "https://colab.research.google.com/drive/1gggX4DHzHRnqvnpSBIy2h8XMZzv1vOdu?usp=sharing",
     repo: "https://github.com/FasTrak1x/ai-playground",
   },
   {
     id: 3,
-    title: "DevOps Lab",
-    description: "Dockerized services with Nginx reverse proxy and CI basics.",
-    tags: ["Docker", "Nginx", "CI"],
-    demo: "https://example.com/devops-lab",
-    repo: "https://github.com/FasTrak1x/devops-lab",
+    title: "Credit Card Fraud Detection",
+    description:
+      "A project focused on learning and detecting fraudulent credit card transactions using machine learning algorithms.",
+    tags: ["Python", "Machine Learning", "Data Science"],
+    demo: "https://colab.research.google.com/drive/1hq_Kt1CVxfaUkd9G49-c2WZvo0lLe2Mm?usp=sharing",
+    repo: "https://github.com/FasTrak1x/credit-card-fraud-detection",
+  },
+  {
+    id: 4,
+    title: "MeMalDet HMM",
+    description:
+      "Deploying Hidden Markov Models (HMM) for effective malware detection and classification on the Memory Malware Detection (MeMalDet) framework.",
+    tags: ["Python", "Deep Learning", "Cybersecurity"],
+    demo: "https://colab.research.google.com/drive/1cqnifZM2L57-m63ZOvMl6OiBBLkkKBgV?usp=sharing",
+    repo: "https://github.com/FasTrak1x/credit-card-fraud-detection",
   },
 ];
 
@@ -96,20 +106,6 @@ export default function Projects() {
               >
                 <Github className="w-4 h-4" />
                 Repo
-              </a>
-
-              {/* optional: code link if different from repo */}
-              <a
-                href={p.repo}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 px-3 py-2 rounded-md border-2
-                           border-[#2d88ff] text-[#2d88ff] font-bold text-xs
-                           hover:bg-[#2d88ff] hover:text-[#0b1220] transition"
-                title="Source Code"
-              >
-                <Code2 className="w-4 h-4" />
-                Code
               </a>
             </div>
           </article>
