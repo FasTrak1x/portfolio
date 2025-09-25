@@ -1,11 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/",
-      "missing": [
-        { "type": "filesystem", "value": "/:path*" }
-      ]
-    }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
