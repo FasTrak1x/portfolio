@@ -140,14 +140,16 @@ export default function Contact() {
 
               <a
                 href="/resume.pdf"
-                download
+                download="Wasil-Malik-Resume.pdf"
+                type="application/pdf"
                 className="relative inline-flex items-center justify-center px-6 py-3 border-2 rounded-md 
                            border-[hsl(174,100%,42%)] text-[hsl(174,100%,42%)] font-extrabold tracking-[.12em] text-sm
                            hover:bg-[hsl(174,100%,42%)] hover:text-[hsl(220,13%,9%)] transition"
               >
-                ⭳ Download Résumé
+                Download Resume
                 <span className="absolute -right-1.5 -bottom-1.5 w-2.5 h-2.5 border-2 border-[hsl(174,100%,42%)] border-l-0 border-t-0 rounded-[2px]" />
-              </a>
+            </a>
+
             </div>
           </form>
         </div>
