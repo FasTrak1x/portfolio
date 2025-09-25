@@ -139,8 +139,8 @@ export default function Contact() {
               </button>
 
               <a
-                href="/resume.pdf"
-                download="Wasil-Malik-Resume.pdf"
+                href="/Wasil_Fawad_CV.pdf"
+                download="Wasil_Fawad_CV.pdf"
                 type="application/pdf"
                 className="relative inline-flex items-center justify-center px-6 py-3 border-2 rounded-md 
                            border-[hsl(174,100%,42%)] text-[hsl(174,100%,42%)] font-extrabold tracking-[.12em] text-sm
