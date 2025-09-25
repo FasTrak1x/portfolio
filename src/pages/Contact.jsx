@@ -139,7 +139,7 @@ export default function Contact() {
               </button>
 
               <a
-                href="/resume.pdf"
+                href="/Wasil_Fawad_CV.pdf"
                 target="_blank"
                 rel="noopener"
                 className="relative inline-flex items-center justify-center px-6 py-3 border-2 rounded-md 
