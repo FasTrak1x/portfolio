@@ -7,7 +7,7 @@ const skills = [
   "⚛️ React",
   "🐍 Python",
   "🧠 C++",
-  "🧱 Java",
+  "☕ Java",
   "🗄️ PostgreSQL",
   "💻 Verilog",
   "☁️ DevOps",
