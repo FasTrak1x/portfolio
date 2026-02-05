@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "Fine-Tuning Qwen2-VL for LaTeX Code Generation",
     description:
-      "A project focused on fine-tuning the Qwen2-VL model to generate LaTeX code from images of Mathematical Equations using LoRA and 4-bit Quantization.",
+      "A project focused on fine-tuning the Qwen2-VL model to generate LaTeX code from images of Mathematical Equations using LoRA and 4-bit Quantization (now published on IEEE!). https://ieeexplore.ieee.org/document/11318507",
     tags: ["Python", "NLP", "CV"],
     demo: "https://colab.research.google.com/drive/1gggX4DHzHRnqvnpSBIy2h8XMZzv1vOdu?usp=sharing",
     repo: "https://github.com/FasTrak1x/ai-playground",
