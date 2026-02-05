@@ -10,8 +10,8 @@ const skills = [
   "🧱 Java",
   "🗄️ PostgreSQL",
   "💻 Verilog",
-  "☁️ DevOps (in progress)",
-  "🔐 Cybersecurity (in progress)",
+  "☁️ DevOps",
+  "🔐 Cybersecurity",
 ];
 
 export default function About() {
