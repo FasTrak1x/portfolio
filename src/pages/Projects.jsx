@@ -5,6 +5,15 @@ import { Github, ExternalLink } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "VigilAI",
+    description:
+      "An AI integrated SIEM/IDS tool used to monitor network traffic for identification and risk-level classification of malicious attacks and security concerns.",
+    tags: ["LLMs", "Machine Learning", "Cybersecurity"],
+    demo: "https://demolink",
+    repo: "https://github.com/delphi20/FYP-repo",
+  },
+  {
+    id: 2,
     title: "To-Do List App",
     description:
       "A simple and intuitive to-do list application built with React.",
@@ -13,7 +22,7 @@ const projects = [
     repo: "https://github.com/FasTrak1x/todo-app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Fine-Tuning Qwen2-VL for LaTeX Code Generation",
     description:
       "A project focused on fine-tuning the Qwen2-VL model to generate LaTeX code from images of Mathematical Equations using LoRA and 4-bit Quantization (now published on IEEE!). https://ieeexplore.ieee.org/document/11318507",
@@ -22,7 +31,7 @@ const projects = [
     repo: "https://github.com/FasTrak1x/ai-playground",
   },
   {
-    id: 3,
+    id: 4,
     title: "Credit Card Fraud Detection",
     description:
       "A project focused on learning and detecting fraudulent credit card transactions using machine learning algorithms.",
@@ -31,7 +40,7 @@ const projects = [
     repo: "https://github.com/FasTrak1x/credit-card-fraud-detection",
   },
   {
-    id: 4,
+    id: 5,
     title: "MeMalDet HMM",
     description:
       "Deploying Hidden Markov Models (HMM) for effective malware detection and classification on the Memory Malware Detection (MeMalDet) framework.",
